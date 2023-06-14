@@ -54,6 +54,7 @@ const response = {
       ]
     }
   };
+
   
   test('Pokemon item response is correct', () => {
     expect(response.data.pokemon_v2_pokemonitem).toHaveLength(10);
@@ -62,8 +63,8 @@ const response = {
       expect(typeof item.pokemon_id).toBe('number');
       expect(typeof item.item_id).toBe('number');
       expect(typeof item.id).toBe('number');
-  
-      // Id'lerin sıralı olduğunu kontrol et
+      //
+      //
       expect(item.id).toBe(index + 1);
     });
   });
