@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "@urql/core": "^4.0.10"
+    "@urql/core": "^4.0.10",
+    "urql": "^4.0.4"
   },
   "devDependencies": {
     "jest": "^29.5.0"

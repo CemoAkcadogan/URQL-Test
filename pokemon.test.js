@@ -6,7 +6,7 @@ const response = {
           "item_id": 199,
           "id": 1
         },
-        {
+        { 
           "pokemon_id": 12,
           "item_id": 199,
           "id": 2
